@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="./assets/logo.png">
+    <title>B8One - Academy</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header> 
+        <div class="logo-container">
+            <a href="https://www.b8one.academy/" target="_Blank">
+                <img src="./assets/logo.png" alt="logo b8one" />
+            </a>
+        </div>
+        <div class="single-input">
+            <input type="text" name="input" placeholder="What are you looking for?">
+        </div>
+        <div class="sing-in-container">  
+            <div class="icon-sing-in">
+                <img src="./assets/person-icon.png" alt="person icon" />
+                    <p>
+                        SING IN 
+                    </p> 
+            </div> 
+            <div class="icon-whislist">
+                <img src="./assets/heart.svg" alt="favorite icon" />
+                <p>
+                    WISHLIST 
+                </p>
+            </div>
+            <div class="icon-bag">
+                <img src="./assets/bag-icon.svg" alt="bag icon" />
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Eletronics</a>
+            </li>
+            <li>
+                <a href="#">Smart Home</a>
+            </li>
+            <li>
+                <a href="#">Computers</a>
+            </li>
+            <li>
+                <a href="#">Smatphones</a>
+            </li>
+            <li>
+                <a href="#">New In Fornitures</a>
+            </li>
+            <li>
+                <a href="#">Home & Kitchen</a>
+            </li>
+            <li>
+                <a href="#">Video Game Sale</a>
+            </li>
+            <li>
+                <a href="#">Holiday Deals</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="sub-menu"> 
+        <ul>
+            <li>home</li> >
+            <li>eletronics</li> >
+            <li>computers</li>
+        </ul>
+
+    </div>
+    <main>
+        <section class="section-1">
+            <div class="product-container">
+                <div class="image-content"> 
+                    <img src="./assets/mac-book-pro.png" alt="Mac Book Pro" />
+                    <div class="align-text-span">
+                        <span>
+                            Roll over image to zoom in
+                        </span>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="description-product">
+                    <h2>
+                        Apple 13.3" MacBook Pro, 2.6GHz Intel Core i7 6 Core 9th Gen (Late 2019, Space Gray)
+                    </h2>
+                </div>
+                <div class="prod-extra">
+                    <span>
+                        Ref: 0000
+                    </span>
+                    <a href="#">
+                        READ FULL DESCRIPTION
+                    </a>
+                </div>
+
+                <div class="price-and-color-container">
+                    <div class="color-content">
+                        <div class="color-and-size-choice">
+                            <div class="align-container-color">
+                                <span>
+                                    Color: Space Gray
+                                </span>
+                                <div class="color-choice">
+                                    <div class="space-gray"></div>
+                                    <div class="light-pink"></div>
+                                    <div class="light-gray"></div>
+                                </div>
+                            </div>
+                            <div class="screen-size">
+                                <span>
+                                    Screen Size:
+                                </span>
+                                <div class="choice-size">
+                                    <div class="size-13-3">
+                                        <span>
+                                            13.3
+                                        </span>
+                                    </div>
+                                    <div class="size-18">
+                                        <span>
+                                            18
+                                        </span>
+                                    </div>
+                                    <div class="size-21">
+                                        <span>
+                                            21
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="shipping-content">
+                            <img src="./assets/section1-icons/delivery-icon.svg" alt="Delivery truck" />
+                            <div class="info-shipping">
+                                <h4>
+                                    Shipping
+                                </h4>
+                                <p>
+                                    Receive or pickup your products!
+                                </p>
+                                <a href="#">
+                                    See Shipping Options
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="price-content">
+                        <div class="price">
+                            <h3>
+                                $ 3,199.00
+                            </h3>
+                            <div class="cut-price"> 
+                                <s>
+                                    3,600.00
+                                </s>
+                                <h6>
+                                    SAVE $ 0
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="add-to-cart">
+                            <div class="quantity">
+                                <div class="quantity-select">
+                                    <button onclick="diminuir()">
+                                        -
+                                    </button>
+
+                                    <span id="counter-label">
+                                        0
+                                    </span>
+
+                                    <button onclick="acrescentar()">
+                                        +
+                                    </button>
+                                </div>
+                                <div class="align-text-stock"> 
+                                    <p>
+                                        Only 3 left in Stock <br>
+                                        Buy now!
+                                    </p>    
+                                </div> 
+                            </div>
+
+                            <div class="btn-add-cart">
+                                ADD TO CART
+                            </div>
+
+                            <div class="btn-buy-now">
+                                <img src="./assets/section1-icons/bag-icon-button.png" alt="bag" />
+                                BUY NOW
+                            </div>
+                        </div>
+                        <div class="span-text">
+                            <span>
+                                Shipped by <strong>Store 1</strong>  Sold by <strong>Store 2</strong> 
+                            </span>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="viewd-products">
+                <h4>
+                    Customers also bougth these products
+                </h4>
+                <p>
+                    SEE ALL PRODUCTS
+                </p>
+            </div>
+            <div class="catalog-products">
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/tv-image.svg" alt="smart tv" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                VIZEO 65" Class 4K UHD
+                                Quantum SmartCast Sma...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/smartwatch-image.svg" alt="smartwatch" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                Apple Watch Series 5 GPS, 44mm Space Gray Alumi...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/knifes-image.svg" alt="knifes" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                The Pioneer Woman Cowboy Rustic 14-Piece...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/led-night-image.svg" alt="Led Night" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                onn. Wireless Charging Pad with LED Night Light
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/chair-image.svg" alt="chair" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                Office Chair Ergonomic Desk Chair Mesh Comp...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/nuts-image.png" alt="Nuts chocolate" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                Hershey, Halloween Assorted Candy Nuts...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="viewd-products">
+                <h4>
+                    Customers also viewed these products
+                </h4>
+                <p>
+                    SEE ALL PRODUCTS
+                </p>
+            </div>
+
+            <div class="catalog-products">
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/jbl-image.svg" alt="JBL" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                VIZEO 65" Class 4K UHD
+                                Quantum SmartCast Sma...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/smartphone-image.svg" alt="smartphone" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                Apple Watch Series 5 GPS, 44mm Space Gray Alumi...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/pan-image.svg" alt="pan" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                The Pioneer Woman Cowboy Rustic 14-Piece...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/airpod-image.svg" alt="airpods" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                onn. Wireless Charging Pad with LED Night Light
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/mask-image.svg" alt="mask deep" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                Office Chair Ergonomic Desk Chair Mesh Comp...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-content">
+                    <div class="image-product">
+                        <img src="./assets/card-products-images/headphone-image.png" alt="headphone-image" />
+                    </div>
+                    <div class="content-info">
+                        <div class="despcrition-info">
+                            <p>
+                                Hershey, Halloween Assorted Candy Nuts...
+                            </p>
+                        </div>
+                        <div class="prices-info">
+                            <div>
+                                <s>$ 748.00</s>
+                            </div>
+                            <div class="real-price">
+                                <p>$ 548.00</p>
+                            </div>
+                            <div class="parcel-content">
+                                <p>10x $ 320,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <img src="./assets/departaments-image.png" alt="departament image" />
+        </section>
+        <section class="section-4">
+            <div class="about-item">
+                <h3>
+                    About this item
+                </h3>
+
+                <br>
+
+                <p>
+                    <strong>
+                        We aim to show you accurate product information. 
+                        Manufacturers, suppliers and others provide what you see here, and we have not verified it.<br> 
+                        See our disclaimer.
+                    </strong>
+                    <br><br>
+                </p>
+                <p>   
+                    iPad Air is thin, light, and powerful. It features the A12 Bionic chip with Neural Engine, which uses real-time machine learning to transform the way you experience photos, gaming, augmented reality (AR), and more.
+                    A beautiful 10.5-inch Retina display with True Tone for easier viewing in all kinds ofÂ lighting environments.1Â Support for Apple Pencil and the Smart Keyboard.Â 2Â An 8MP back camera and 7MP FaceTime HD camera.
+                    Touch ID and Apple Pay. And with all-day battery life,3Â fast Wi-Fi and Gigabit-class LTE,Â 4Â and over a million iPad apps on the App Store, iPad Air is ready for any task, anywhere.
+                    <br><br>
+                    • 10.5-inch Retina display with True Tone and wide color1 ’’
+                    <br>
+                    • A12 Bionic chip
+                    <br>
+                    • Touch ID fingerprint sensor and Apple Pay
+                    <br>
+                    • 8MP back camera, 7MP FaceTime HD front camera
+                    <br>
+                    • Stereo speakers
+                    <br>
+                    • 802.11ac Wi-Fi and Gigabit-class LTE cellular data4
+                    <br>
+                    • Up to 10 hours of battery life3
+                    <br>
+                    • Lightning connector for charging and accessories
+                    <br> 
+                    • iOS 12 with Group FaceTime, shared augmented reality experiences, Screen Time, and more
+                    <br><br>
+                    Go to <a href="#">apple.com/ipad-air/specs</a> for a complete set. 
+                </p>
+            </div>
+        </section>
+    </main>
+    <section class="send-email">
+        <div>
+            <p>
+                Get news & special offers!
+            </p>
+        </div>
+        <div>
+            <form name="form1" action="#">
+                <input type="text" name="text1" placeholder="example@hotmail.com">
+                <button type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)">SUBMIT</button>
+            </form>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="site-map-links">
+            <div class="section-link">
+                <h4>Section name</h4>
+                <div class="divisor-link">
+                   <ul>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                    </ul> 
+                
+                   <ul>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                    </ul>
+                </div>  
+            </div>
+
+            <div class="section-link">
+                <h4>Section name</h4>
+                <div class="divisor-link">
+                    <ul>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                    </ul> 
+                 
+                    <ul>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                        <li><a href="#">Sitemap link</a></li>
+                    </ul>
+                 </div>
+            </div>
+            
+            <div class="buttons-container">
+                <div class="call-button">
+                    <img src="./assets/footer-icons/phone-icon-footer.png" alt="phone icon" />
+                    <span>
+                        CALL US
+                    </span>
+                </div>
+                <div class="send-message-button">
+                    <img src="./assets/footer-icons/mail-icon-footer.png" alt="mail icon" />
+                    <span>
+                        SEND A MESSAGE
+                    </span>
+                    
+                </div>
+                <span class="click-here-span">
+                    Click here to see our opening hours
+                </span>
+            </div>
+        </div>
+
+        <div class="divisor"></div>
+
+        <div class="payment-methods">
+            <div class="payment-methods-content">
+                <img src="./assets/footer-icons/payment-icons.svg" alt="payments" />
+            </div>
+            <div class="social-media">
+                <a href="https://facebook.com/" target="_blank">
+                    <img src="./assets/footer-icons/facebook-icon.svg" alt="facebook"/>
+                </a>
+                <a href="https://instagram.com/" target="_blank">
+                    <img src="./assets/footer-icons/instagram-icon.png" alt="instagram"/>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="./assets/footer-icons/twitter-icon.svg" alt="twitter"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="container-credits">
+            <div class="align-credits">
+                <div class="credits">
+                    <div class="b8one-reserved">
+                        <span> 
+                            2020 @ All Right Reserved to b8one
+                        </span>
+                    </div>
+                    <div class="text-final">
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit aliqua do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt amet.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="congrats-final">
+                <div>
+                    <img src="./assets/footer-icons/vtex-image.svg" alt="" />
+                </div>
+                <div>
+                    <img src="./assets/footer-icons/b8one-image.svg" alt="" />
+                </div>
+            </div>
+        </div>
+        
+    </footer>  
+</body>
+</html>
